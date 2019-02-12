@@ -1,0 +1,8 @@
+<manifest xmlns:ml="magicleap" ml:developer_id="eee61e55-cfb5-4c27-8545-32f18182feeb" ml:package="com.nanome.hellocube" ml:version_code="1" ml:version_name="">
+  <application ml:min_api_level="3" ml:sdk_version="1.0" ml:visible_name="HelloCube">
+    <uses-privilege ml:name="LowLatencyLightwear" />
+    <component ml:binary_name="bin/Player.elf" ml:name=".fullscreen" ml:type="Fullscreen" ml:visible_name="HelloCube">
+      <icon ml:model_folder="Icon/Model" ml:portal_folder="Icon/Portal" />
+    </component>
+  </application>
+</manifest>
